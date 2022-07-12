@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login Page Recap</title>
+
+    <link rel="stylesheet" href="IndexStyle.css">
+
+    <script src="Login.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <form class="Login" action="index.html" method="post">
+        <label for="User">Enter Username</label>
+        <input type="text" name="User" value="" id="Username"> <br>
+
+        <label for="Pass">Enter Password</label>
+        <input type="text" name="Pass" value="" id="Password"><br>
+
+        <button onclick="LoginClick()" type="button" name="LoginBtn">Login</button>
+    </form>
+
+    <form class="SignUp" action="index.html" method="post">
+        <label for="NewUser">Enter Username</label>
+        <input type="text" name="NewUser" value="" id="NewUsername"> <br>
+
+        <label for="NewPass">Enter Password</label>
+        <input type="text" name="NewPass" value="" id="NewPassword"><br>
+
+        <button onclick="AddClick()" type="button" name="SignUpBtn">SignUp</button>
+    </form>
+
+    <p id="DispText">Some Text Message</p>
+
+  </body>
+</html>
